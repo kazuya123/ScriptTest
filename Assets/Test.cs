@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Test : MonoBehaviour
 {
-    int mp = 53;
+    
     // Use this for initialization
     void Start()
     {
@@ -21,10 +21,9 @@ public class Test : MonoBehaviour
 
         Boss boss = new Boss();
        
-        for (int i = 0; i < 10; i++)
+        for (int i = 0; i < 11; i++)
         {
-            boss.Magic(mp);
-            mp -= 10;
+            boss.Magic();
         }
 
     }
